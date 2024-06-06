@@ -64,7 +64,7 @@ form.onsubmit = (event) => {
     localStorage.removeItem(`${ALGORITHM_KEY}_temp`); // 清空暂存的抽奖算法信息
     displaySettingsInfo(tempSettings, '提交');
     alert('算法已保存!');
-    window.location.href = 'algorithm.html'; // 保存成功后返回首页
+    window.location.href = 'draw.html'; // 保存成功后返回首页
 };
 
 function renderPersons() {
