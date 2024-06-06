@@ -1,0 +1,91 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* 设置背景图，并确保它大于可视区域，以便可以移动 */
+
+    background: url(../Photos/main.webp) no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+
+}
+
+/* 主容器样式 */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75); /* 半透明白色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 导航样式 */
+nav {
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+nav a:hover, nav a.active {
+    background-color: #0056b3;
+}
+
+/* 按钮样式 */
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 20px 0;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* 表格样式 */
+.prize-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.prize-table th, .prize-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.prize-table th {
+    background-color: #f8f8f8;
+}
+
+/* 中奖信息样式 */
+.winner-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
