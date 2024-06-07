@@ -1,6 +1,6 @@
 const PASS_IN_KEY = 'PASS';
 function checkPassword() {
-    var correctPassword = 'xjhyyds';
+    var correctPassword = '谢佳何';
     var userPassword = document.getElementById('password').value;
     if (userPassword === correctPassword) {
         localStorage.setItem(PASS_IN_KEY, true);
