@@ -1,6 +1,6 @@
 const PASS_IN_KEY = 'PASS';
 function checkPassword() {
-    var correctPassword = '谢佳何';
+    var correctPassword = '谢佳何李宏轩战伟豪王泰然张进凯YYds！';
     var userPassword = document.getElementById('password').value;
     if (userPassword === correctPassword) {
         localStorage.setItem(PASS_IN_KEY, true);
