@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>抽奖人员信息管理</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/person_styles.css">
+    <link rel="icon" href="https://cdn.llfc.club/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h2>抽奖人员信息管理</h2>
+        <nav>
+            <a href="draw.html">客户抽奖</a> |
+            <a href="person.html">人员管理</a> |
+            <a href="prize.html">奖品管理</a> |
+            <a href="algorithm.html">算法维护</a> |
+            <a href="logout.html">注销</a>
+        </nav>
+        <form id="person-form" class="form">
+            <div class="form-group">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">手机号:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <button type="submit" class="btn submit-btn">添加/更新人员</button>
+        </form>
+        <table id="person-table" class="person-table">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>手机号</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 人员数据将被插入到这里 -->
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="./JavaScript/checkpass.js"></script>
+    <script type="text/javascript" src="../JavaScript/Sakura.js"></script>
+    <script type="text/javascript" src="../JavaScript/person.js"></script>
+</body>
+</html>
