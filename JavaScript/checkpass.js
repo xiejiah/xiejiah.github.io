@@ -4,7 +4,7 @@ function checkpass() {
     if (!check) {
         alert('请先获取通行证!');
         //window.location.href = 'http://xiejiah.github.io/pass.html';
-        window.location.href = 'https://xiejiah.github.io/pass.html';
+        window.location.href = 'https://xiejiah.github.io/html/pass.html';
     }
 }
 checkpass();
