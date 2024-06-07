@@ -1,0 +1,108 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* 设置背景图，并确保它大于可视区域，以便可以移动 */
+
+    background: url(../Photos/main.webp) no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+
+}
+
+
+/* 主容器样式 */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75); /* 半透明白色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 导航样式 */
+nav {
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+nav a:hover, nav a.active {
+    background-color: #0056b3;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], .select, .btn {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+select.select {
+    width: calc(100% - 20px);
+}
+
+/* 按钮样式 */
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* 信息展示样式 */
+.settings-info {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.settings-info h3 {
+    margin-top: 0;
+}
+
+.info-section {
+    margin-bottom: 10px;
+}
+
+.info-section strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.info-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.info-section ul li {
+    margin-bottom: 5px;
+}

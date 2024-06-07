@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>抽奖奖品管理</title>
+    <link rel="stylesheet" type="text/css" href="https://xiejiah.github.io/CSS/prize_styles.css">
+    <link rel="icon" href="https://cdn.llfc.club/favicon.ico">
+</head>
+<body>
+    <div class="container">
+        <h2>抽奖奖品管理</h2>
+        <nav>
+            <a href="https://xiejiah.github.io/html/draw.html">客户抽奖</a> |
+            <a href="https://xiejiah.github.io/html/person.html">人员管理</a> |
+            <a href="https://xiejiah.github.io/html/prize.html" class="active">奖品管理</a> |
+            <a href="https://xiejiah.github.io/html/algorithm.html">算法维护</a> |
+            <a href="https://xiejiah.github.io/html/logout.html">注销</a>
+        </nav>
+        <form id="prize-form" class="form">
+            <div class="form-group">
+                <label for="name">奖品名称:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="image">奖品图片URL:</label>
+                <input type="text" id="image" name="image">
+            </div>
+            <div class="form-group">
+                <label for="image-upload">上传本地图片:</label>
+                <input type="file" id="image-upload" name="image-upload" accept=".jpg,.jpeg,.png,.gif" hidden>
+                <button type="button" class="btn upload-btn" onclick="document.getElementById('image-upload').click();">选择文件</button>
+                <span id="file-name"></span>
+            </div>
+            <button type="submit" class="btn submit-btn">添加/更新奖品</button>
+        </form>
+        <table id="prize-table" class="prize-table">
+            <thead>
+                <tr>
+                    <th>奖品名称</th>
+                    <th>奖品图片</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 奖品数据将被插入到这里 -->
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="https://xiejiah.github.io/JavaScript/checkpass.js"></script>
+    <script type="text/javascript" src="https://xiejiah.github.io/JavaScript/Sakura.js"></script>
+    <script type="text/javascript" src="https://xiejiah.github.io/JavaScript/prize.js"></script>
+</body>
+</html>
