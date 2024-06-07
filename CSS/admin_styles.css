@@ -1,0 +1,85 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* 设置背景图，并确保它大于可视区域，以便可以移动 */
+
+    background: url(https://xiejiah.github.io/Photos/main.webp) no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+
+}
+
+
+/* 主容器样式 */
+#main-container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75); /* 半透明白色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* 导航样式 */
+nav {
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-link {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover, .nav-link.active {
+    background-color: #0056b3;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+}
+
+/* 表格样式 */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.data-table th {
+    background-color: #f8f8f8;
+}
+
+/* 详情部分样式 */
+.details-section {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e9ecef;
+}
+
+/* 按钮样式 */
+button {
+    padding: 8px 12px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px; /* Add some space between buttons */
+}
+
+button:hover {
+    background-color: #218838;
+}
