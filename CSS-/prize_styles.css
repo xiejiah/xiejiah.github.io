@@ -1,0 +1,123 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    /* 设置背景图，并确保它大于可视区域，以便可以移动 */
+
+    background: url(https://xiejiah.github.io/Photos/main.webp) no-repeat;
+    background-size:100% 100%;
+    background-attachment:fixed;
+
+}
+
+/* 主容器样式 */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.75); /* 半透明白色 */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 导航样式 */
+nav {
+    margin-bottom: 20px;
+    background-color: #007BFF;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+}
+
+nav a:hover, nav a.active {
+    background-color: #0056b3;
+}
+
+/* 表单样式 */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], .btn {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* 按钮样式 */
+.btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #218838;
+}
+
+/* 文件上传按钮样式 */
+.upload-btn {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.upload-btn:hover {
+    background-color: #138496;
+}
+
+#file-name {
+    margin-left: 10px;
+    font-style: italic;
+    color: #666;
+}
+
+/* 表格样式 */
+.prize-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.prize-table th, .prize-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.prize-table th {
+    background-color: #f8f8f8;
+}
+
+/* 删除按钮样式，仅示例 */
+button {
+    padding: 5px 10px;
+    color: white;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c82333;
+}

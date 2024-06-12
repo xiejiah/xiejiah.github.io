@@ -1,0 +1,48 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* 设置背景图，并确保它大于可视区域，以便可以移动 */
+    background-image: url(https://xiejiah.github.io/Photos/main.webp);
+    background-size: 130% 130%;
+    background-position: center;
+    transition: background-position 0.5s ease-out;
+
+}
+
+.container {
+    
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); /* 半透明白色 */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 72px;
+    margin: 0;
+    color: #e74c3c;
+}
+
+p {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #3498db;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
