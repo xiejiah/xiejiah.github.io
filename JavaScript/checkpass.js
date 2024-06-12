@@ -7,4 +7,4 @@ function checkpass() {
         window.location.href = 'https://xiejiah.github.io/html/pass.html';
     }
 }
-checkpass();
+// checkpass();
